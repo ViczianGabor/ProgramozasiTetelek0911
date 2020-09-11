@@ -16,3 +16,8 @@
 
 ## megszámlálás
   - hány 3-al osztható szám van
+
+## eldöntés
+ - eldontes() metodus
+ - van-e a tömbben 69
+ -kiírni hogy "van" vagy "nincs"

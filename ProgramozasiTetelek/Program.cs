@@ -52,11 +52,36 @@ namespace ProgramozasiTetelek
             Console.WriteLine("3-al osztható számok darabszáma: {0}",darab);
 
         }
+
+
+
+        static void eldontes()
+        {
+            int i = 0;
+            bool van = true;
+            while (i < tomb.Length && van)
+            {
+                if (tomb[i] == 69)
+                {
+                    van = false;
+                    Console.WriteLine("van ilyen");
+                }
+                i++;
+            }
+            if (van)
+            {
+                Console.WriteLine("\n nincs ilyen");
+            }
+            
+
+
+        }
         static void Main(string[] args)
         {
             TombKiiras();
             osszegzes();
             megszamlalas();
+            eldontes();
             Console.ReadKey();
 
         }

@@ -113,6 +113,26 @@ namespace ProgramozasiTetelek
             }
               
         }
+        
+
+        static void maximumkereses()
+        {
+            int max = tomb[0];
+            
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (max<tomb[i])
+                {
+                    max = tomb[i];
+                    
+                }
+
+            }
+            Console.WriteLine("a legnagyobb érték {0}",max);
+
+
+
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -121,6 +141,7 @@ namespace ProgramozasiTetelek
             eldontes();
             kivalasztas();
             kereses();
+            maximumkereses();
             Console.ReadKey();
 
         }

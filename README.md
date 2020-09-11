@@ -30,3 +30,7 @@
 ## keresés tétele
  - keresés metódus
  - van e benne 50 és ha van benne akkor hányadik
+
+## maximu keresés
+ - maximum metódus
+ - kiírni a maximum értéket

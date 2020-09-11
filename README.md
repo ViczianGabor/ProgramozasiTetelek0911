@@ -21,3 +21,8 @@
  - eldontes() metodus
  - van-e a tömbben 69
  -kiírni hogy "van" vagy "nincs"
+
+## kiválasztás
+ - kivalasztas() metódus létrehozása
+ - hanyadik az 50-es szám
+ - kiírni az indexét/helyét

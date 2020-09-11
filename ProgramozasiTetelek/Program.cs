@@ -86,14 +86,32 @@ namespace ProgramozasiTetelek
             {
                 i++;
             }
-            if (i != tomb.Length)
-                Console.WriteLine("A keresett szám a {0}. indexű elem.", i);
+            Console.WriteLine("A kiválasztott szám a {0}. helyen van.", i+1);
+
+
+
+
+
+        }
+
+        static void kereses()
+        {
+            Console.WriteLine("\n");
+            int i = 0;
+            while (i< tomb.Length && tomb[i] !=50)
+            {
+                i++;
+
+            }
+            if (i< tomb.Length)
+            {
+                Console.WriteLine("van és a {0}. helyen van",i+1);
+            }
             else
+            {
                 Console.WriteLine("A keresett szám nincs a tömbben!");
-
-
-
-
+            }
+              
         }
         static void Main(string[] args)
         {
@@ -102,6 +120,7 @@ namespace ProgramozasiTetelek
             megszamlalas();
             eldontes();
             kivalasztas();
+            kereses();
             Console.ReadKey();
 
         }

@@ -26,3 +26,7 @@
  - kivalasztas() metódus létrehozása
  - hanyadik az 50-es szám
  - kiírni az indexét/helyét
+
+## keresés tétele
+ - keresés metódus
+ - van e benne 50 és ha van benne akkor hányadik

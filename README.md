@@ -13,3 +13,6 @@
  - összegzés metódus létrehozása
  - összegzés tétele a tömbön
  - eredmény kiírása a console-ra
+
+## megszámlálás
+  - hány 3-al osztható szám van

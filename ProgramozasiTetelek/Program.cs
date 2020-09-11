@@ -36,11 +36,27 @@ namespace ProgramozasiTetelek
 
 
         }
+
+
+        static void megszamlalas()
+        {
+            Console.WriteLine();
+            int darab = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] %3 ==0)
+                {
+                    darab++;
+                }
+            }
+            Console.WriteLine("3-al osztható számok darabszáma: {0}",darab);
+
+        }
         static void Main(string[] args)
         {
             TombKiiras();
             osszegzes();
-
+            megszamlalas();
             Console.ReadKey();
 
         }
